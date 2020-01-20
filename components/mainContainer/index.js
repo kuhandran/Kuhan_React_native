@@ -39,6 +39,7 @@ export default class MainContainer extends Component {
             {this.state.LoadApp &&
              <AppNavigator
               username={this.state.username}
+              information={"LoginSection"}
              />
 
             }
